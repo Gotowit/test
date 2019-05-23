@@ -4,11 +4,15 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+httpie = "*"
 
 [packages]
 flask = "*"
 python-dotenv = "*"
 flask-cors = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+flask-httpauth = "*"
 
 [requires]
 python_version = "3.7"
